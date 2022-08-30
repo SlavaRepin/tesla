@@ -543,7 +543,7 @@ body {
   font-size: 1.5rem;
   line-height: 1.1666666667;
   color: rgb(255, 255, 255);
-  background-color: gray;
+  background-color: rgb(11, 11, 11);
 }
 
 body._lock {
@@ -1147,7 +1147,7 @@ body._lock {
 
 .bottom-indicators__image {
   width: 100%;
-  padding: 0 0 33.4% 0;
+  padding: 0 0 41% 0;
   min-height: 7.5rem;
   position: relative;
   -webkit-filter: grayscale(1);
@@ -1707,6 +1707,14 @@ body._lock {
 
   .row-description {
     grid-template-columns: repeat(auto-fit, minmax(18.125rem, 1fr));
+  }
+}
+
+@media screen and (max-width: 25.62375em) {
+  .item-indicators {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
   }
 }
 
