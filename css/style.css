@@ -1024,7 +1024,7 @@ body._lock {
 }
 
 .body-tesla {
-  opacity: 0;
+  opacity: 0.01;
   -webkit-transform: translate(15%, 0) rotateY(45deg);
           transform: translate(15%, 0) rotateY(45deg);
   -webkit-transition: all 0.5s ease 0s;
